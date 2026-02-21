@@ -2,7 +2,7 @@
 
 DOMAIN = "greynoise_ip_check"
 
-DEFAULT_SCAN_INTERVAL_HOURS = 4
+DEFAULT_SCAN_INTERVAL_HOURS = 12
 
 GREYNOISE_CHECK_URL = "https://check.labs.greynoise.io/api/v1/check"
 
