@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "GreyNoise IP Check",
+        "description": "This integration will periodically check if your Home Assistant's public IP address has been observed scanning the internet using GreyNoise.\n\nNo API key is required. The free GreyNoise Labs check API is used."
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the GreyNoise API. Please check your internet connection."
+    },
+    "abort": {
+      "already_configured": "GreyNoise IP Check is already configured."
+    }
+  }
+}
